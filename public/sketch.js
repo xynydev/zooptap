@@ -1,4 +1,4 @@
-const arcSize = min(window.innerWidth-100, window.innerHeight-100, 500);
+let arcSize;
 
 let arcStart;
 let arcStop;
@@ -34,6 +34,7 @@ function mousePressed() {
 }
 
 function setup() {
+  arcSize = min(window.innerWidth-100, window.innerHeight-100, 500);
   createCanvas(window.innerWidth, window.innerHeight);
   newArc();
 }
