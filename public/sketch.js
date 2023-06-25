@@ -1,4 +1,4 @@
-const arcSize = window.innerWidth-100;
+const arcSize = min(window.innerWidth-100, window.innerHeight-100, 500);
 
 let arcStart;
 let arcStop;
