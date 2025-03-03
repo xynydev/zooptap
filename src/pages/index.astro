@@ -13,6 +13,7 @@
 	<body>
 		<main>
 			<h1><em>zooptap</em></h1>
+			<h2><em>highscore: <span id="score"></span></em></h2>
 		</main>
 		<script is:inline src="/sketch.js"/>
 	</body>
@@ -32,6 +33,17 @@
 		top: 1rem;
 		transform: translateX(-50%);
 		font-family: sans-serif;
-		text
+	}
+	h2 {
+		position: absolute;
+		left: 50%;
+		top: 4rem;
+		transform: translateX(-50%);
+		font-family: sans-serif;
+		font-size: 1rem;
+	}
+	#score {
+		font-family: monospace;
+		font-weight: normal;
 	}
 </style>
